@@ -80,6 +80,24 @@ body{
   justify-content: space-between;
   align-items: center; 
 }
+.header .container .logo {
+  display: flex;
+  justify-content: space-between;
+}
+.header .container .logo span{
+  display: inline-block;
+  height: 21px;
+  width: 20px;
+}
+.header .container .logo .I{
+  border-left: 3px solid #777;
+}
+.header .container .logo .O{
+  border: 3px solid var(--main-color);
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
 .header .links{
   position: relative;
   margin-top: 5px;
